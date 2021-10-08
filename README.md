@@ -1,2 +1,2 @@
 # Computer-Practical
-Contains all my Term Class 10 Computer Project work
+Contains all my CBSE Term-1 Class 10 Computer Project work
