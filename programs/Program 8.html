@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+
+<HEAD>
+  <TITLE>Registration form</TITLE>
+  <STYLE>
+    input{
+      border: hidden;
+      outline: none;
+      background: #444;
+      color: white;
+      font-size: 17px;
+      margin-bottom: 3px;
+      font-family: 'Courier New', Courier, monospace
+    }
+  </STYLE>
+</HEAD>
+
+<BODY leftmargin="10%" rightmargin="10%" topmargin="100px" bottommargin="100px" bgcolor="#0b0b20" text="#eee">
+  <FONT face="Courier New">
+    <FONT color="#0affa1">
+      <H1>Register</H1>
+    </FONT>
+    <BR />
+    Please fill in this form to create an account.
+    <BR />
+    <BR />
+    <HR color="#ff0030" /><BR/>
+    <form action="Thank You.html" method="POST" >
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Enter email" minlength="10" maxlength="500" required/><BR />
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="Enter Password" minlength="4" maxlength="75" required/><BR/>
+      <label for="rptPassword">Repeat Password:</label>
+      <input type="password" name="rptPassword" placeholder="Repeat Password" minlength="4" maxlength="75" required/><BR/><BR/>
+       <HR color="#ff0030" />
+       <BR/>
+       <input type="checkbox" required/>&nbsp;I agree with the terms and conditions.<BR/><BR/>
+       <input type="submit" value="Register" style="
+      background: #0affa1; width: 150px; height: 40px; color:#111; font-size: 17px">
+    </form>
+  </FONT>
+</BODY>
+
+</HTML>
